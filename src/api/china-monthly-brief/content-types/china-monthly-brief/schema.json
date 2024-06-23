@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "china_monthly_briefs",
+  "info": {
+    "singularName": "china-monthly-brief",
+    "pluralName": "china-monthly-briefs",
+    "displayName": "ChinaMonthlyBrief"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    }
+  }
+}

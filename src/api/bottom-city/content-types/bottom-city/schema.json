@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bottom_cities",
+  "info": {
+    "singularName": "bottom-city",
+    "pluralName": "bottom-cities",
+    "displayName": "BottomCity",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "city": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    },
+    "index_categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::index-category.index-category",
+      "inversedBy": "bottom_cities"
+    }
+  }
+}

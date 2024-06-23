@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "china_libraries",
+  "info": {
+    "singularName": "china-library",
+    "pluralName": "china-libraries",
+    "displayName": "ChinaLibrary"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "index_radars",
+  "info": {
+    "singularName": "index-radar",
+    "pluralName": "index-radars",
+    "displayName": "IndexRadar",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "CEI": {
+      "type": "string"
+    },
+    "ER": {
+      "type": "string"
+    },
+    "ETRI": {
+      "type": "string"
+    },
+    "GC": {
+      "type": "string"
+    },
+    "CEV": {
+      "type": "string"
+    },
+    "PCC": {
+      "type": "string"
+    },
+    "WLI": {
+      "type": "string"
+    },
+    "totalPopulation": {
+      "type": "string"
+    },
+    "provinceArea": {
+      "type": "string"
+    },
+    "index_category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::index-category.index-category",
+      "mappedBy": "index_radar"
+    }
+  }
+}

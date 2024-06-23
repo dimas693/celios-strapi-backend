@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "china_articles",
+  "info": {
+    "singularName": "china-article",
+    "pluralName": "china-articles",
+    "displayName": "ChinaArticle"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

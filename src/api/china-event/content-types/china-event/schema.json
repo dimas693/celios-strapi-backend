@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "china_events",
+  "info": {
+    "singularName": "china-event",
+    "pluralName": "china-events",
+    "displayName": "ChinaEvent",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

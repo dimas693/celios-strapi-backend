@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "op_eds",
+  "info": {
+    "singularName": "op-ed",
+    "pluralName": "op-eds",
+    "displayName": "OpEd"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

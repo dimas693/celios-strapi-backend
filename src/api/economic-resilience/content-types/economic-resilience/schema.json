@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "economic_resiliences",
+  "info": {
+    "singularName": "economic-resilience",
+    "pluralName": "economic-resiliences",
+    "displayName": "EconomicResilience",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "skor": {
+      "type": "string"
+    },
+    "retataNasional": {
+      "type": "string"
+    },
+    "index_categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::index-category.index-category",
+      "inversedBy": "economic_resiliences"
+    },
+    "indicator": {
+      "type": "string"
+    }
+  }
+}

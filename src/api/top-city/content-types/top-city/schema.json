@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "top_cities",
+  "info": {
+    "singularName": "top-city",
+    "pluralName": "top-cities",
+    "displayName": "TopCity",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "city": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    },
+    "index_categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::index-category.index-category",
+      "inversedBy": "top_cities"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "report_energy_transitions",
+  "info": {
+    "singularName": "report-energy-transition",
+    "pluralName": "report-energy-transitions",
+    "displayName": "ReportEnergyTransition"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "downloadReport": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

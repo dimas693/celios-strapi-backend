@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "index_categories",
+  "info": {
+    "singularName": "index-category",
+    "pluralName": "index-categories",
+    "displayName": "IndexCategory",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "index_radar": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::index-radar.index-radar",
+      "inversedBy": "index_category"
+    },
+    "clean_energies": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::clean-energy.clean-energy",
+      "inversedBy": "index_categories"
+    },
+    "economic_resiliences": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::economic-resilience.economic-resilience",
+      "mappedBy": "index_categories"
+    },
+    "goverment_capacities": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::goverment-capacity.goverment-capacity",
+      "mappedBy": "index_categories"
+    },
+    "climate_vulnerabilities": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::climate-vulnerability.climate-vulnerability",
+      "mappedBy": "index_categories"
+    },
+    "bottom_cities": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::bottom-city.bottom-city",
+      "mappedBy": "index_categories"
+    },
+    "top_cities": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::top-city.top-city",
+      "mappedBy": "index_categories"
+    }
+  }
+}

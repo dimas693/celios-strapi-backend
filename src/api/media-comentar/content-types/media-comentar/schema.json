@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "media_comentars",
+  "info": {
+    "singularName": "media-comentar",
+    "pluralName": "media-comentars",
+    "displayName": "MediaComentar"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

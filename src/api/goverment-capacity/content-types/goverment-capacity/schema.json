@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "goverment_capacities",
+  "info": {
+    "singularName": "goverment-capacity",
+    "pluralName": "goverment-capacities",
+    "displayName": "GovermentCapacity",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "skor": {
+      "type": "string"
+    },
+    "retataNasional": {
+      "type": "string"
+    },
+    "index_categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::index-category.index-category",
+      "inversedBy": "goverment_capacities"
+    },
+    "indicator": {
+      "type": "string"
+    }
+  }
+}

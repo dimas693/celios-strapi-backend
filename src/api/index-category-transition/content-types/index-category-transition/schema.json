@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "index_category_transitions",
+  "info": {
+    "singularName": "index-category-transition",
+    "pluralName": "index-category-transitions",
+    "displayName": "IndexCategoryTransition"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    }
+  }
+}

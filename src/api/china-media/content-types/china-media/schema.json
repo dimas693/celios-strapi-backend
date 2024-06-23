@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "china_medias",
+  "info": {
+    "singularName": "china-media",
+    "pluralName": "china-medias",
+    "displayName": "ChinaMedia"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
